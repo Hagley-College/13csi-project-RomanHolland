@@ -1,0 +1,17 @@
+if direction == "north":
+            self.row = self.row -1
+        elif direction == "south":
+            self.row = self.row +1
+        if direction == "northwest":
+            self.row = self.row -1
+            self.col = self.col -1
+        elif direction == "southwest"
+            self.row = self.row +1
+            self.col = self.col -1
+        if direction == "northeast"
+            self.row = self.row -1
+            self.col = self.col +1
+        elif direction == "southeast"
+            self.row = self.row +1
+            self.col = self.col +1
+        
